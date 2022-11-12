@@ -1,4 +1,4 @@
-Определение модели:
+Определение модели: #research 
 1. Sequental
 	`from keras import models
 	`from keras import layers

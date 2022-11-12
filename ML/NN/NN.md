@@ -1,14 +1,10 @@
-Types
-* Two-branch N
+## Types
+* Two-branch N #research
 * Multihead N
 * Inception blocks
 * Generative adversarial network
-Создание:
-1. Архитектура
-2. Функция потерь
-	1. Бинарная классификация - бинарная перекрёстная энтропия. Последний слой - Dense с одним нейроном и sigmoid = вероятность.
-	2. Классификация - многозначная перекрёстная энтропия
-	3. Регрессия - СКО
-	4. Обучение на последовательности - ассоциативная временная классификация (Connectionist Temporal Classification, CTC)
-3. Оптимизатор
-4. 
+## Parameters
+1. Arch
+2. Loss function ([[Loss function]])
+3. Optimizer ([[Optimizers]])
+4. Metrics ([[Metrics]])
