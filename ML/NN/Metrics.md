@@ -1,3 +1,31 @@
+# Basic
+https://habr.com/ru/company/ods/blog/328372/
+## (PR) - Precision, Recall, F-мера - классификация
+* FP - ошибки I рода, FN - ошибки II рода
+* *$precision = \frac{TP}{TP+FP}$ - точность - доля правильных положительных прогнозов - способность отличать класс от других
+* *$recall = \frac{TP}{TP+FN}$* - полнота - доля найденных объектов положительного класса - способность обнаруживать класс
+* Не зависят от соотношения классов
+Обычно задача - баланс этих метрик. Способы их объединения (для оптимизации по гиперпараметру, н-р. GridSearchCV):
+*   F-мера *$\large \ F_\beta = (1 + \beta^2) \cdot \frac{precision \cdot recall}{(\beta^2 \cdot precision) + recall}$*,
+	* $\beta$ - вес точности в метрике
+* sklearn - metrics.classification_report
+#research Несбалансированные классы (http://contrib.scikit-learn.org/imbalanced-learn/)
+## AUC-ROC, AUC-PR - выбор порога классификации
+* AUC-ROC (или ROC AUC) — площадь (Area Under Curve) под кривой ошибок (Receiver Operating Characteristic curve )
+* Данная кривая представляет из себя линию от (0,0) до (1,1) в координатах True Positive Rate (TPR) и False Positive Rate (FPR):
+	* *$\large TPR = \frac{TP}{TP + FN}$ - полнота
+	* $\large FPR = \frac{FP}{FP + TN}$ - доля объектов из negative класса, предсказанная неверно
+* #ToDo https://alexanderdyakonov.wordpress.com/2015/10/09/%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D0%BA%D0%B8-%D0%BF%D1%80%D0%BE-auc-roc/
+## Logistic Loss
+* *$\large logloss = - \frac{1}{l} \cdot \sum_{i=1}^l (y_i \cdot log(\hat y_i) + (1 - y_i) \cdot log(1 - \hat y_i))$
+* 
+
+
+
+
+
+
+
 ## Data
 Separate data to 3 datasets:
 1) trainig -  for weights

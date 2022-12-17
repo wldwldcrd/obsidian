@@ -1,22 +1,18 @@
 {
   "main": {
-    "id": "08b4600526603fc2",
+    "id": "2ff86c1477983524",
     "type": "split",
     "children": [
       {
-        "id": "1006ea397dc5ef0d",
+        "id": "61f7448c4b0dc29c",
         "type": "tabs",
         "children": [
           {
-            "id": "7e1ab71d518fac9e",
+            "id": "e50cbb748b218d09",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NN/Metrics.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -25,15 +21,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "351950b6fc583349",
+    "id": "19268c105803e114",
     "type": "split",
     "children": [
       {
-        "id": "a37ed754776854fc",
+        "id": "8b97de1dc5f36286",
         "type": "tabs",
         "children": [
           {
-            "id": "9bad137c7620b7ef",
+            "id": "bc61a0c790bec66a",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +39,7 @@
             }
           },
           {
-            "id": "ff2f9dc3c02a0888",
+            "id": "d11a4261a6bdf789",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +54,7 @@
             }
           },
           {
-            "id": "72129c5eb7395b11",
+            "id": "f8d235c290e7d1c3",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -69,23 +65,22 @@
       }
     ],
     "direction": "horizontal",
-    "width": 210.5
+    "width": 300
   },
   "right": {
-    "id": "a7570ae8bb90f6dd",
+    "id": "89eaf0fd5e4930e1",
     "type": "split",
     "children": [
       {
-        "id": "a3c6312bd3463c1c",
+        "id": "8e8b5b0c30a3006d",
         "type": "tabs",
         "children": [
           {
-            "id": "fb89707e0864d695",
+            "id": "fd810c5f9492ba6a",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NN/Metrics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,19 +92,18 @@
             }
           },
           {
-            "id": "736a11ed66f7fae4",
+            "id": "50c6ad96e0780310",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NN/Metrics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "f4fa628abb0cd949",
+            "id": "7006e137cfedf1fd",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,13 +114,11 @@
             }
           },
           {
-            "id": "35a8ce308fa460b1",
+            "id": "4a9efab5f3ab1ae4",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "NN/Metrics.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -136,17 +128,6 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "7e1ab71d518fac9e",
-  "lastOpenFiles": [
-    "NN/Loss function.md",
-    "NN/Metrics.md",
-    "Obsidian.md",
-    "Algorithms/Strong Sort.md",
-    "2022-12-17.md",
-    "Ubuntu.md",
-    "NN/Preprocessing.md",
-    "VSCode/Basic.md",
-    "Xilinx/Vitis.md",
-    "Xilinx/Docs.md"
-  ]
+  "active": "e50cbb748b218d09",
+  "lastOpenFiles": []
 }
