@@ -13,13 +13,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NN/Metrics.md",
+                "file": "Ubuntu.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "207693849bdbaa1d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "System/Process.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a80496c34f3cf388",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Xilinx/Vitis.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NN/Metrics.md",
+                "file": "System/Process.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NN/Metrics.md",
+                "file": "System/Process.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NN/Metrics.md"
+                "file": "System/Process.md"
               }
             }
           }
@@ -136,17 +161,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "7e1ab71d518fac9e",
+  "active": "207693849bdbaa1d",
   "lastOpenFiles": [
-    "NN/Loss function.md",
+    "Ubuntu.md",
+    "Xilinx/ZCU102.md",
+    "Xilinx/Vitis.md",
+    "Xilinx/Zynq US+.md",
+    "Xilinx/ARM.md",
     "NN/Metrics.md",
+    "NN/Loss function.md",
     "Obsidian.md",
     "Algorithms/Strong Sort.md",
-    "2022-12-17.md",
-    "Ubuntu.md",
-    "NN/Preprocessing.md",
-    "VSCode/Basic.md",
-    "Xilinx/Vitis.md",
-    "Xilinx/Docs.md"
+    "2022-12-17.md"
   ]
 }
